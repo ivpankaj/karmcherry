@@ -20,7 +20,10 @@ export const metadata: Metadata = {
     description: "A helping hand for employers and employees in the tech industry",
     url: "https://karmcherry.web.app",
     siteName: "Karmcherry",
-  }
+  },
+  verification: {
+    google: "HkYS3evi3jqymwePJIQD6Ym4GZGNKhG28ZPB_K1ZfsY",
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +33,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="HkYS3evi3jqymwePJIQD6Ym4GZGNKhG28ZPB_K1ZfsY" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
