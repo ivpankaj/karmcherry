@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://karmcherry.web.app
+
+# Sitemaps
+Sitemap: https://karmcherry.web.app/sitemap.xml
